@@ -143,7 +143,7 @@ const IndexTwo = () => {
 
       
         {/* <!-- rts eaxty steps area start --> */}
-            <div class="rts-feature-tab-area home-two rts-section-gapTop">
+            {/* <div class="rts-feature-tab-area home-two rts-section-gapTop">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -271,7 +271,7 @@ const IndexTwo = () => {
                             </div>
                         </div>
                     </div>
-            </div>
+            </div> */}
        {/* <!-- rts eaxty steps area end --> */}
         
     {/* <!-- clients with openup --> */}
@@ -353,7 +353,7 @@ const IndexTwo = () => {
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         {/* <!-- single blog area start --> */}
                         <div class="single-blog-area-wrapper">
-                            <a href="blog-details.html#" class="thumbnail">
+                            <a href="#" class="thumbnail">
                                 <img src="assets/images/blog/01.jpg" alt="Blog_images"/>
                             </a>
                             <div class="inner-content">
@@ -362,7 +362,7 @@ const IndexTwo = () => {
                                     <span class="time">7 min Read</span>
                                 </div>
                                 <div class="body">
-                                    <a href="blog-details.html">
+                                    <a href="#">
                                         <h5 class="title">Five Things You Need to Know
                                             about Writing Articles</h5>
                                     </a>
@@ -374,7 +374,7 @@ const IndexTwo = () => {
                                                 <span>Author</span>
                                             </div>
                                         </div>
-                                        <a href="blog-details.html">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -384,7 +384,7 @@ const IndexTwo = () => {
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         {/* <!-- single blog area start --> */}
                         <div class="single-blog-area-wrapper">
-                            <a href="blog-details.html#" class="thumbnail">
+                            <a href="#" class="thumbnail">
                                 <img src="assets/images/blog/02.jpg" alt="Blog_images"/>
                             </a>
                             <div class="inner-content">
@@ -393,7 +393,7 @@ const IndexTwo = () => {
                                     <span class="time">4 min Read</span>
                                 </div>
                                 <div class="body">
-                                    <a href="blog-details.html">
+                                    <a href="#">
                                         <h5 class="title">15 AI Prompts to Supercharge
                                             Sales & Marketing Teams</h5>
                                     </a>
@@ -405,7 +405,7 @@ const IndexTwo = () => {
                                                 <span>Author</span>
                                             </div>
                                         </div>
-                                        <a href="blog-details.html">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -415,7 +415,7 @@ const IndexTwo = () => {
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         {/* <!-- single blog area start --> */}
                         <div class="single-blog-area-wrapper">
-                            <a href="blog-details.html#" class="thumbnail">
+                            <a href="#" class="thumbnail">
                                 <img src="assets/images/blog/03.jpg" alt="Blog_images"/>
                             </a>
                             <div class="inner-content">
@@ -424,7 +424,7 @@ const IndexTwo = () => {
                                     <span class="time">7 min Read</span>
                                 </div>
                                 <div class="body">
-                                    <a href="blog-details.html">
+                                    <a href="#">
                                         <h5 class="title">Introducing Infobase by Copy
                                             ai: Your Team’s Brand Center</h5>
                                     </a>
@@ -436,7 +436,7 @@ const IndexTwo = () => {
                                                 <span>Author</span>
                                             </div>
                                         </div>
-                                        <a href="blog-details.html">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -877,96 +877,6 @@ const IndexTwo = () => {
     {/* <!-- right switcher end --> */}
 
 
-    {/* <!-- header style two --> */}
-    <div id="side-bar" class="side-bar header-two">
-        <button class="close-icon-menu"><i class="far fa-times"></i></button>
-
-        {/* <!-- mobile menu area start --> */}
-        <div class="mobile-menu-main">
-            <nav class="nav-main mainmenu-nav mt--30">
-                <ul class="mainmenu metismenu" id="mobile-menu-active">
-                    <li class="has-droupdown parent">
-                        <a href="#" class="main">Home</a>
-                        <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="index.html">Content Writing 01</a></li>
-                            <li><a class="mobile-menu-link" href="index-two.html">Content Writing 03</a></li>
-                            <li><a class="mobile-menu-link" href="index-three.html">Content Writing 03</a></li>
-                            <li><a class="mobile-menu-link" href="index-four.html">Ai Chat Bot</a></li>
-                            <li><a class="mobile-menu-link" href="index-five.html">Voice Generator</a></li>
-                            <li><a class="mobile-menu-link" href="index-five.html">Image Generator</a></li>
-                            <li><a class="mobile-menu-link" href="index-five.html">Photo Stock</a></li>
-                        </ul>
-                    </li>
-                    <li class="parent">
-                        <a href="feature.html" class="main">Use Cases</a>
-                    </li>
-                    <li class="has-droupdown parent">
-                        <a href="#" class="main">Pages</a>
-                        <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="/AboutOpenUp">About Us</a></li>
-                            <li><a class="mobile-menu-link" href="blog.html">Blog</a></li>
-                            <li><a class="mobile-menu-link" href="blog-details.html">Blog Details</a></li>
-                            <li><a class="mobile-menu-link" href="/Contact">Contact</a></li>
-                            <li><a class="mobile-menu-link" href="use-case.html">Use Case</a></li>
-                            <li><a class="mobile-menu-link" href="use-case-2.html">Use Case 2</a></li>
-                            <li><a class="mobile-menu-link" href="case-details.html">Use Case Details</a></li>
-                            <li><a class="mobile-menu-link" href="case-details-2.html">Use Case Details</a></li>
-                            <li><a class="mobile-menu-link" href="pricing.html">Pricing</a></li>
-                            <li><a class="mobile-menu-link" href="pricing-two.html">Pricing Two</a></li>
-                            <li><a class="mobile-menu-link" href="pricing-three.html">Pricing Three</a></li>
-                            <li><a class="mobile-menu-link" href="faq.html">FAQ</a></li>
-                            <li><a class="mobile-menu-link" href="/Login">Log In</a></li>
-                            <li><a class="mobile-menu-link" href="registration.html">Registration</a></li>
-                            <li><a class="mobile-menu-link" href="reset.html">Reset</a></li>
-                            <li><a class="mobile-menu-link" href="404.html">Not Found</a></li>
-                        </ul>
-                    </li>
-                    <li class="parent">
-                        <a href="feature.html" class="main">Feature</a>
-                    </li>
-                    <li class="has-droupdown parent">
-                        <a href="#" class="main">Shop</a>
-                        <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="shop-details.html">Product Details</a></li>
-                            <li><a class="mobile-menu-link" href="cart.html">Cart</a></li>
-                            <li><a class="mobile-menu-link" href="checkout.html">Checkout</a></li>
-                            <li><a class="mobile-menu-link" href="/Login">My Account</a></li>
-                        </ul>
-                    </li>
-                    <li class="parent">
-                        <a href="/Contact" class="main">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="rts-social-style-one pl--20 mt--100">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        {/* <!-- mobile menu area end --> */}
-    </div>
-    {/* <!-- header style two End --> */}
 
 
     {/* <!-- rts backto top start --> */}

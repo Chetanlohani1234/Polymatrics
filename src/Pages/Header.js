@@ -323,6 +323,97 @@ const Header = () => {
                 </div>
             </div>
         </header>
+
+
+            {/* <!-- header style two --> */}
+    <div id="side-bar" class="side-bar header-two">
+        <button class="close-icon-menu"><i class="far fa-times"></i></button>
+
+        {/* <!-- mobile menu area start --> */}
+        <div class="mobile-menu-main">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="mainmenu metismenu" id="mobile-menu-active">
+                    <li class="has-droupdown parent">
+                        <a href="#" class="main">Solutions</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="/UseCasesDetails2">ChatBot Builder</a></li>
+                            <li><a class="mobile-menu-link" href="/UseCasesDetails">Generative AI ChatBot</a></li>
+                            <li><a class="mobile-menu-link" href="/UseCase2">Live Chat</a></li>
+                            <li><a class="mobile-menu-link" href="/useCase">Dialogflow Integration</a></li>
+                            <li><a class="mobile-menu-link" href="/FAQ">FAQ ChatBot</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">eCommerce</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">Healthcare</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">Education</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">Banking</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown parent">
+                        <a href="#" class="main">Integration</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="/Feature">Omnichannel messaging</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">eCommerce sites</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">ChatBot Builder</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">Zendesk ChatBot</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">Website and CMS</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">Mobile Apps</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">CRMs</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">Automation and Analytics</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="has-droupdown parent">
+                        <a href="#" class="main">Resources</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="/Soon">Blog</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">Case Studies</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">Comparison</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">videos</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">ChatBot Templates</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">ROI Calculator</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">Whitepapers</a></li>
+                            <li><a class="mobile-menu-link" href="/Soon">Generative AI Guide</a></li>
+                        </ul>
+                    </li>
+                    <li class="parent">
+                        <a href="/Soon" class="main">Pricing</a>
+                    </li>
+                    <li class="parent">
+                        <a href="/Login" class="main">Login</a>
+                    </li>
+                    <li class="parent">
+                        <a href="/AboutOpenUp" class="main">Get Started</a>
+                    </li>
+                </ul>
+            </nav>
+{/* 
+            <div class="rts-social-style-one pl--20 mt--100">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div> */}
+        </div>
+        {/* <!-- mobile menu area end --> */}
+    </div>
+    {/* <!-- header style two End --> */}
       
     </>
   )
