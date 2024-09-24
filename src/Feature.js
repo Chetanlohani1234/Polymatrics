@@ -238,10 +238,10 @@ const Feature = () => {
               <div className="col-lg-6">
                 <div className="feature-content-inner pl--120">
                   <h3 className="title">
-                    <span></span> Use Kommunicate with your favorite apps
+                    <span></span> Use Polymatric with your favorite apps
                   </h3>
                   <p className="disc">
-                   Do more with Kommunicate by connecting your favorite tools and seamlessly transfer data between them. Easily integrate with Facebook, WhatsApp, Line, Zapier, CRMs, and more apps.
+                   Do more with Polymatric by connecting your favorite tools and seamlessly transfer data between them. Easily integrate with Facebook, WhatsApp, Line, Zapier, CRMs, and more apps.
                   </p>
                   <a href="#" className="rts-btn btn-primary">
                     View All Integrations <i className="fa-regular fa-arrow-right" />
